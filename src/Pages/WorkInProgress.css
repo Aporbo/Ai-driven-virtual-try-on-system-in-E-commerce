@@ -1,0 +1,31 @@
+.work-in-progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    color: #ccda82;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  .work-in-progress h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #e64a1a; 
+  }
+  
+  .work-in-progress p {
+    font-size: 24px;
+    color: #666; 
+  }
+  @media (max-width: 600px) {
+    .work-in-progress h1 {
+      font-size: 36px; 
+    }
+  
+    .work-in-progress p {
+      font-size: 18px; 
+    }
+  }
+  
